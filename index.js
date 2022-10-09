@@ -49,6 +49,10 @@ $("body").click(startGame)
 
 function startGame() {
     randomColor();
+
+    if(window.matchMedia("(max-width: 1120px)")) {
+        $("h1").text("Tap to Start!")
+    }
 }
 
 var num = 1;
