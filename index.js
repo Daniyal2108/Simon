@@ -43,11 +43,13 @@ function buttonClick(button) {
 }
 
 
-$(document).keypress(function() {
+$(document).keypress(startGame);
 
+$(document).click(startGame)
+
+function startGame() {
     randomColor();
-
-});
+}
 
 var num = 1;
 var executed = false;
