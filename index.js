@@ -92,6 +92,7 @@ function balanceBothLists() {
     
     if(clickedButtons.length === randomPlay.length) {
         playGame();
+        
     } 
 }
 
