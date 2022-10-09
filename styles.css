@@ -52,10 +52,15 @@ body {
   background-color: grey;
 }
 
-@media (max-width: 1120px) {
+@media (max-width: 1119px) {
   .container {
     padding-top: 5%;
-  }
+  } 
+}
+@media (min-width: 1119px) {
+  .start-btn {
+    display: none;
+  } 
 }
 .start-btn {
   background-color: #FEF2BF;
