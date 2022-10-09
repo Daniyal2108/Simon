@@ -57,3 +57,11 @@ body {
     padding-top: 5%;
   }
 }
+.btn {
+  background-color: #FEF2BF;
+  color: white;
+  font-size: 10%;
+  font-weight: 500;
+  padding: 10px;
+  border-radius: 10px;
+}
