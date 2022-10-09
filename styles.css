@@ -56,9 +56,15 @@ body {
   .container {
     padding-top: 5%;
   } 
+  #level-title {
+    display: none;
+  }
 }
 @media (min-width: 1119px) {
   .start-btn {
+    display: none;
+  }
+  #level-title-responsive {
     display: none;
   } 
 }
