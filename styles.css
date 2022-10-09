@@ -78,8 +78,8 @@ body {
 .start-btn {
   background-color: #FEF2BF;
   color: black;
-  font-size: 90%;
+  font-size: 2.6rem;
   font-weight: 700;
-  padding: 20px;
+  padding: 15px;
   border-radius: 10px;
 }
