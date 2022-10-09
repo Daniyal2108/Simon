@@ -51,3 +51,9 @@ body {
   box-shadow: 0 0 20px white;
   background-color: grey;
 }
+
+@media (max-width: 1120px) {
+  .container {
+    padding-top: 5%;
+  }
+}
