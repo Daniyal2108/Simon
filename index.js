@@ -45,7 +45,7 @@ function buttonClick(button) {
 
 $(document).keypress(startGame);
 
-$(document).click(startGame)
+$("body").click(startGame)
 
 function startGame() {
     randomColor();
