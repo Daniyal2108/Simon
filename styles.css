@@ -70,9 +70,9 @@ body {
 }
 .start-btn {
   background-color: #FEF2BF;
-  color: white;
-  font-size: 10%;
-  font-weight: 500;
-  padding: 10px;
+  color: black;
+  font-size: 40%;
+  font-weight: 700;
+  padding: 20px;
   border-radius: 10px;
 }
