@@ -41,9 +41,9 @@ function buttonClick(button) {
             console.log("Anything doing wrong!");
     }
 }
+$("h1").text("Tap to Start!");
 
 if(window.matchMedia("(max-width: 1120px)")) {
-    $("h1").text("Tap to Start!");
 } else {
     $("h1").text("Press A Key to Start");
 }
