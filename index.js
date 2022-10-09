@@ -43,7 +43,7 @@ function buttonClick(button) {
 }
 
 if(window.matchMedia("max-width: 1120px")) {
-    $("h1").text("Tap to Start!");
+    $("h1").text("to Start!");
 } else {
     $("h1").text("Press A Key to Start");
 }
