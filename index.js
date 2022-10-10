@@ -42,13 +42,9 @@ function buttonClick(button) {
     }
 }
 
-$(document).keypress(startGame);
+$(document).keypress( randomColor );
 
-$(".start-btn").click(startGame);
-
-function startGame() {
-    randomColor();
-}
+$(".start-btn").click( randomColor );
 
 var num = 1;
 var executed = false;
@@ -74,7 +70,6 @@ function randomColor() {
     }
 
 }
-
 
 var clickedButtons = [];
 $(".btn").click(function() {
@@ -161,3 +156,7 @@ function playGame() {
     }    
 
 }
+
+
+// MODE 2........
+
