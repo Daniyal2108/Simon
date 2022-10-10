@@ -81,6 +81,8 @@ $(".btn").click(function() {
     
     var clickedButtonId = this.id;
 
+    buttonClick(clickedButtonId);
+
     // Buttons List.....
     clickedButtons.push(clickedButtonId);
 
@@ -92,7 +94,7 @@ function balanceBothLists() {
     
     if(clickedButtons.length === randomPlay.length) {
         playGame();
-        
+
     } 
 }
 
